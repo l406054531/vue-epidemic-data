@@ -1,0 +1,12 @@
+$bg:rgba(17, 53, 73, 0.54);
+$color: #85a4eb;
+
+@mixin position-absolute {
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  z-index: 1;
+  background-color: $bg;
+  border-radius: 20px;
+  color: #fff;
+}
